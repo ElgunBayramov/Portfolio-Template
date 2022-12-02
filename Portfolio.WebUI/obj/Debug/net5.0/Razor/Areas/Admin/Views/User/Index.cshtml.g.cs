@@ -19,8 +19,29 @@ using Portfolio.Domain.Models.Entities;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\LENOVO\Desktop\Portfolio Template\Portfolio.WebUI\Areas\Admin\Views\_ViewImports.cshtml"
+using Portfolio.Domain.Business.BlogModule;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "C:\Users\LENOVO\Desktop\Portfolio Template\Portfolio.WebUI\Areas\Admin\Views\_ViewImports.cshtml"
+using Portfolio.Domain.Business.UserModule;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Users\LENOVO\Desktop\Portfolio Template\Portfolio.WebUI\Areas\Admin\Views\_ViewImports.cshtml"
+using Portfolio.Domain.Business.ProjectModule;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"adc7b2d416679871f99496e2a4dfcb2f2153a0a9", @"/Areas/Admin/Views/User/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b88992f7cf623a655f759c87fb6bf8ef8dde677f", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1c1ead4a16be50191d38cb55437075897ea0c892", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Admin_Views_User_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<User>>
     #nullable disable
@@ -115,7 +136,7 @@ using Portfolio.Domain.Models.Entities;
                             <th class=""operation"">
 ");
             WriteLiteral("                            </th>\r\n                        </tr>\r\n                    </thead>\r\n                    <tbody id=\"dynamic-body\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "adc7b2d416679871f99496e2a4dfcb2f2153a0a95847", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "adc7b2d416679871f99496e2a4dfcb2f2153a0a96516", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();

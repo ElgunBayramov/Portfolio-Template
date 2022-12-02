@@ -19,8 +19,29 @@ using Portfolio.Domain.Models.Entities;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\LENOVO\Desktop\Portfolio Template\Portfolio.WebUI\Areas\Admin\Views\_ViewImports.cshtml"
+using Portfolio.Domain.Business.BlogModule;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "C:\Users\LENOVO\Desktop\Portfolio Template\Portfolio.WebUI\Areas\Admin\Views\_ViewImports.cshtml"
+using Portfolio.Domain.Business.UserModule;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Users\LENOVO\Desktop\Portfolio Template\Portfolio.WebUI\Areas\Admin\Views\_ViewImports.cshtml"
+using Portfolio.Domain.Business.ProjectModule;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f7b092015686dc0555957f7b9bb8758ee90c8fd1", @"/Areas/Admin/Views/Ability/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b88992f7cf623a655f759c87fb6bf8ef8dde677f", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1c1ead4a16be50191d38cb55437075897ea0c892", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Admin_Views_Ability_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Ability>>
     #nullable disable
@@ -114,7 +135,7 @@ using Portfolio.Domain.Models.Entities;
                             <th>Name</th>
                             <th class=""operation"">
                                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f7b092015686dc0555957f7b9bb8758ee90c8fd16788", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f7b092015686dc0555957f7b9bb8758ee90c8fd17457", async() => {
                 WriteLiteral("\r\n                                <i class=\"fa fa-plus\"></i>\r\n                                ");
             }
             );
@@ -131,7 +152,7 @@ using Portfolio.Domain.Models.Entities;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            </th>\r\n                        </tr>\r\n                    </thead>\r\n                    <tbody id=\"dynamic-body\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "f7b092015686dc0555957f7b9bb8758ee90c8fd18297", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "f7b092015686dc0555957f7b9bb8758ee90c8fd18966", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -156,7 +177,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.Model = Model;
             WriteLiteral("\r\n                    </tbody>\r\n                </table>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <!-- Basic table card end -->\r\n</div>\r\n\r\n");
             DefineSection("addjs", async() => {
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f7b092015686dc0555957f7b9bb8758ee90c8fd110143", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f7b092015686dc0555957f7b9bb8758ee90c8fd110812", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
