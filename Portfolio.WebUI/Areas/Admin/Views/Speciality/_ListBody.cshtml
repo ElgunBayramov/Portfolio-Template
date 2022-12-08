@@ -1,17 +1,11 @@
 ﻿
-@model List<Blog>
+@model List<Speciality>
 @foreach (var item in Model)
 {
     <tr>
-        <td class="image-cell">
-            @if (!string.IsNullOrWhiteSpace(item.ImagePath))
-            {
-                <img style="width:100px" src="~/uploads/images/@item.ImagePath" />
-            }
-        </td>
-        <td>@item?.Title</td>
-        <td class="cell-medium">@item?.Description</td>
-        <td>@item?.CreatedDate</td>
+        <td>@item.Name</td>
+        <td class="cell-medium">@item.Bio.ToPlainText()</td>
+        <td>@item.CreatedDate</td>
         <td class="operation">
             <a asp-action="edit" asp-route-id="@item.Id" class="btn btn-warning">
                 <i class="fa fa-pencil"></i>
@@ -19,7 +13,7 @@
             <a asp-action="details" asp-route-id="@item.Id" class="btn btn-secondary">
                 <i class="fa fa-eye"></i>
             </a>
-            <a onclick="removeEntity(event,@item.Id,'@item.Title')" class="btn btn-danger">
+            <a onclick="removeEntity(event,@item.Id,'@item.Name')" class="btn btn-danger">
                 <i class="fa fa-trash"></i>
             </a>
         </td>

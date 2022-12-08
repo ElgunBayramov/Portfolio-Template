@@ -1,4 +1,4 @@
-﻿@model List<Blog>
+﻿@model List<Speciality>
 @{
     ViewData["Title"] = "Index";
 }
@@ -49,10 +49,9 @@
                 <table class="table">
                     <thead>
                         <tr>
-                            <th></th>
-                            <th>Title</th>
-                            <th>Description</th>
-                            <th>CreatedDate</th>
+                            <th>Name</th>
+                            <th>Bio</th>
+                            <th>Created date</th>
                             <th class="operation">
                                 <a asp-action="create" class="btn btn-success">
                                 <i class="fa fa-plus"></i>
@@ -109,6 +108,5 @@
         }
     </script>
 }
-
 
 
